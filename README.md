@@ -32,7 +32,9 @@ Ff an attacker has a type that has no effect on one of the types the defender ha
 
 Can run with poetry locally, or with docker
 
-## Container (docker)
+## Container (docker/podman)
+
+**NOTE: any `docker` command can be replaced with `podman`
 
 To run with docker, install docker from [here](https://docs.docker.com/engine/install/)
 
