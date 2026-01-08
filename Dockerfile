@@ -20,8 +20,7 @@ RUN pip install poetry
 RUN poetry config virtualenvs.create false
 
 # Install the dependencies
-# Use --no-dev if you don't want the dev dependencies
-RUN poetry install --no-dev  
+RUN poetry install
 
 
 # Copy the rest of your application's code into the working directory
