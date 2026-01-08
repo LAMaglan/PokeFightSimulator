@@ -1,9 +1,7 @@
 [tool.poetry]
 name = "pokefight"
 version = "0.1.0"
-description = "A (simple) pokemon battle simulator"
-authors = ["Luigi Maglanoc <luigi_maglanoc@hotmail.com>"]
-readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
